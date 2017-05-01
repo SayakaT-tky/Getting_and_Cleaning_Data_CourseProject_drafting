@@ -1,4 +1,4 @@
-# Getting and Cleaning Data course project
+# **Getting and Cleaning Data** course project
 The purpose of this project is to collect, work with, and clean a data set. 
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
