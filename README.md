@@ -7,9 +7,9 @@ In this project, open data set collected from the accelerometers from the Samsun
 
 This repository contains all files requested for submission as follows:
 
-*README.md: (This file) Describes what each files are for.
-*Codebook.md: Describes the variables, the data, and any transformations made to clean up the data
-*run_analysis.R: the R script used to clean up the data to achieve the objectives below:
+* README.md: (This file) Describes what each files are for.
+* Codebook.md: Describes the variables, the data, and any transformations made to clean up the data
+* run_analysis.R: the R script used to clean up the data to achieve the objectives below:
 1. Merge the training and the test sets to create one data set.
 2. Extract only the measurements on the mean and standard deviation for each measurement.
 3. Use descriptive activity names to name the activities in the data set
@@ -19,7 +19,7 @@ This repository contains all files requested for submission as follows:
 
 # Environments
 This project was done with:
-*Windows 7 SP1 64-bit
-*R version 3.3.3
-*Rstudio 1.0.136
-*R packages: dplyr 0.5.0; reshape2 1.4.2
+* Windows 7 SP1 64-bit
+* R version 3.3.3
+* Rstudio 1.0.136
+* R packages: dplyr 0.5.0; reshape2 1.4.2
