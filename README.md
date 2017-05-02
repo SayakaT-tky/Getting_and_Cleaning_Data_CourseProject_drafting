@@ -17,8 +17,9 @@ This repository contains all files requested for project submission as follows:
 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 6. Finally output the result to a new file (tidy_data.txt).
 
-#Data source and more 
+# Data source and more 
 A full description is available at the site where the data was obtained:
+
 [UCI]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 # Environments
