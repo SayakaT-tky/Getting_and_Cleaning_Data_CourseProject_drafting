@@ -3,7 +3,7 @@ The purpose of this project is to collect, work with, and clean a data set.
 
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
 
-In this project, open data set collected from the accelerometers from the Samsung Galaxy S smartphone was utilized. Through the work, the data was cleaned to finally obtain a new tidy data which can be used for later analysis.
+In this project, open data set collected from the accelerometers from the Samsung Galaxy S smartphone was utilized (The source of the original data set is as written in the 'Data source' section below). Through the work, the data was cleaned to finally obtain a new tidy data which can be used for later analysis.
 
 This repository contains all files requested for project submission as follows:
 
@@ -17,7 +17,7 @@ This repository contains all files requested for project submission as follows:
 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 6. Finally output the result to a new file (tidy_data.txt).
 
-# Data source and more 
+# Data source 
 A full description is available at the site where the data was obtained:
 [UCI](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
