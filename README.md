@@ -19,7 +19,7 @@ This repository contains all files requested for project submission as follows:
 
 # Data source and more 
 A full description is available at the site where the data was obtained:
-<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+[UCI](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 # Environments
 This project was done with:
