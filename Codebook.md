@@ -9,9 +9,13 @@ It was created as a tidy data set through the project work cleaning the data sou
 * Summarize the data
 
 # Variables
-Measurements
-Demension
-
+* Measurements
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+Features are normalized and bounded within [-1,1].
+* Demension
+The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'.
+The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
