@@ -4,11 +4,11 @@ The purpose of this project is to collect, work with, and clean a data set.
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
 Through this project work, the open data set collected from the accelerometers from the Samsung Galaxy S smartphone was cleaned to finally obtain a new tidy data which can be used for later analysis. Details for the original data set is as written in the 'Data source' section below. 
 
-This repository contains all files requested for project submission as follows:
+This repository contains all files related to this project as follows:
 
 * README.md: (This file) Describes what each files are for.
 * Codebook.md: Describes the variables, the data, and any transformations made to clean up the data
-* run_analysis.R: the R script used to clean up the data to achieve the objectives below:
+* run_analysis.R: The R script used to clean up the data to achieve the objectives below:
 1. Merge the training and the test sets to create one data set.
 2. Extract only the measurements on the mean and standard deviation for each measurement.
 3. Use descriptive activity names to name the activities in the data set
@@ -17,7 +17,7 @@ This repository contains all files requested for project submission as follows:
 6. Finally output the result to a new file (tidy_data.txt).
 
 # Data source 
-A full description is available at the site where the data was obtained:
+A full description of the dataset is available at the original project website:
 [UCI](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 The following description is quoted from the website above:
