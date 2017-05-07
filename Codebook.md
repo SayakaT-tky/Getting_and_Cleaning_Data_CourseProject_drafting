@@ -1,5 +1,17 @@
+# Data
+The data file in this repository, tidy_data.txt, is the file which this codebook connects to. 
+It was created as a tidy data set through the project work cleaning the data source acquired from the URL below:
+<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+
+# Transformations made
+* Variable selection
+* Alteration of the variable names
+* Summarize the data
+
 # Variables
-Feature Selection 
+Measurements
+Demension
+
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -59,5 +71,4 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-# Data
-# Transformations made
+
