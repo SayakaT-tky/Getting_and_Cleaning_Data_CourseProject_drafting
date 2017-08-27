@@ -34,7 +34,7 @@ All measurements are normalized and bounded within [-1,1].
 The acceleration signal from the smartphone accelerometer are recorded in standard gravity units 'g'.
 The angular velocity vector measured by the gyroscope are recorded in radians per second.
 ### Identifiers
-* Activity
+* 'Activity'
 The activity type performed by the individual  
 * Subject
 The ID of each individual subjects, integers ranging from 1 to 30.
