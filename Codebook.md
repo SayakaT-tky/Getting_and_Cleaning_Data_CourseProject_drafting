@@ -1,7 +1,7 @@
 # Code book for Getting and Cleaning Data course project
-The data file in this repository, tidydata.txt, is the file which this codebook connects to. 
+The data file in this repository, tidydata.txt, is the file which this codebook connects to. It consists of 10299 rows and 81 columns, where the first row contains the variable names.
 
-### Data
+## Data
 The data file "tidydata.txt" was created as a tidy data set through the project work cleaning the data source acquired from the URL below:
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
@@ -9,9 +9,9 @@ The original data source is a set of measurement of 6 activities performed by 30
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration
 - Triaxial Angular velocity from the gyroscope
 
-The original data set is consists of training and test data. These data sets were cleaned as a tidy data set with the average of each variable for each activity and each subject. Transformation details are described in the next section ("Transformations").
+The original data set is consists of training and test data. These data sets were cleaned as a tidy data set with the average of each variable for each activity and each subject. Transformation details are described in the next section ("Transformations"). 
 
-### Transformations
+## Transformations
 The transformations made with the source data set through this course project are as follows: 
 * Combining the original data set
 
@@ -28,11 +28,18 @@ Step4: Appropriately labels the data set with descriptive variable names.
 Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Step6: Output the result to "tidydata.txt".
 
-### Variables
+## Variables
 All measurements are normalized and bounded within [-1,1].
-* Demensions
+### Demensions
 The acceleration signal from the smartphone accelerometer are recorded in standard gravity units 'g'.
 The angular velocity vector measured by the gyroscope are recorded in radians per second.
+### Identifiers
+* Activity
+The activity type performed by the individual  
+* Subject
+The ID of each individual subjects, integers ranging from 1 to 30.
+### Variables
+
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
