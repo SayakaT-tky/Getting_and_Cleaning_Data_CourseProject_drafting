@@ -15,7 +15,7 @@ This repository contains all files related to this project as follows:
 3. Use descriptive activity names to name the activities in the data set
 4. Appropriately label the data set with descriptive variable names.
 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
-6. Finally output the result to a new file (tidy_data.txt).
+6. Finally output the result to a new file (tidydata.txt).
 
 # Data source 
 A full description of the dataset is available at the original project website:
