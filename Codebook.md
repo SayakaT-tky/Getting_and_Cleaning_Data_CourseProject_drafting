@@ -12,7 +12,7 @@ The original data source is a set of measurement of 6 activities performed by 30
 The original data set is consists of training and test data. These data sets were cleaned as a tidy data set with the average of each variable for each activity and each subject. Transformation details are described in the next section ("Transformations"). 
 
 ## Transformations
-The transformations made with the source data set through this course project are as follows: 
+The transformations made with the source data set through the project script(`run_analysis.R`) are as follows: 
 * Combining the original data set
 
 Step1: Merges the training and the test sets to create one data set.
@@ -35,11 +35,15 @@ The acceleration signal from the smartphone accelerometer are recorded in standa
 The angular velocity vector measured by the gyroscope are recorded in radians per second.
 ### Identifiers
 * `Activity`
-The activity type performed by the individual  
-* Subject
+The activity type performed by the individual, strings of either 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+* `Subject`
 The ID of each individual subjects, integers ranging from 1 to 30.
 ### Variables
-
+All values for the measured variables are numeric, floating-point number. The variables are categorized into two types, time domain signals and frequency domain signals. 
+1. Time domain signals
+Time domain signals were captured with the accelerometer and gyroscope and recorded as 3-axial raw signals. These variables 
+2. Frequency domain signals
+*``
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -96,7 +100,3 @@ tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-
-The complete list of variables of each feature vector is available in 'features.txt'
-
-
