@@ -18,7 +18,7 @@ This repository contains all files related to this project as follows:
 6. Finally output the result to a new file (tidydata.txt).
 
 # Data source 
-A full description of the dataset is available at the original project website:
+A full description of the source dataset is available at the original project website:
 [UCI](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 
