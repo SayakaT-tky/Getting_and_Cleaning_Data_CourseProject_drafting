@@ -1,6 +1,5 @@
 # Code book for Getting and Cleaning Data course project
 The data file in this repository, tidydata.txt, is the file which this codebook connects to. 
-It
 
 ### Data
 The data file "tidydata.txt" was created as a tidy data set through the project work cleaning the data source acquired from the URL below:
@@ -9,18 +8,23 @@ The data file "tidydata.txt" was created as a tidy data set through the project 
 The original data source is a set of measurement of 6 activities performed by 30 individuals, which were obtained with smartphones. These data include:
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration
 - Triaxial Angular velocity from the gyroscope
+
 The original data set is consists of training and test data. These data sets were cleaned as a tidy data set with the average of each variable for each activity and each subject. Transformation details are described in the next section ("Transformations").
 
 ### Transformations
 The transformations made with the source data set through this course project are as follows: 
 * Combining the original data set
+
 Step1: Merges the training and the test sets to create one data set.
 * Variable selection
+
 Step2: Extracts only the measurements on the mean and standard deviation for each measurement.
 * Alteration of the variable names
+
 Step3: Uses descriptive activity names to name the activities in the data set.
 Step4: Appropriately labels the data set with descriptive variable names.
 * Summarize the data
+
 Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Step6: Output the result to "tidydata.txt".
 
