@@ -6,10 +6,10 @@ Through this project work, the open data set collected from the accelerometers f
 
 This repository contains all files related to this project as follows:
 
-* README.md: (This file) Describes what each files are for.
-* Codebook.md: Describes the variables, the data, and any transformations made to clean up the data
-* tidydata.txt: The output data set created with step 6 of run_analysis.R
-* run_analysis.R: The R script used to clean up the data to achieve the objectives below:
+* `README.md`: (This file) Describes what each files are for.
+* `Codebook.md`: Describes the variables, the data, and any transformations made to clean up the data
+* `tidydata.txt`: The output data set created with step 6 of run_analysis.R
+* `run_analysis.R`: The R script used to clean up the data to achieve the objectives below:
 1. Merge the training and the test sets to create one data set.
 2. Extract only the measurements on the mean and standard deviation for each measurement.
 3. Use descriptive activity names to name the activities in the data set
