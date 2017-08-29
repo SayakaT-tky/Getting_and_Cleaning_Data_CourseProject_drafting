@@ -33,7 +33,7 @@ The angular velocity vector measured by the gyroscope are recorded in radians pe
 The activity type performed by the individual, strings of either 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 * `Subject`
 The ID of each individual subjects, integers ranging from 1 to 30.
-### Variables
+### Measurement variables
 All values for the measured variables are numeric, floating-point number. The variables are categorized into two types, time domain signals and frequency domain signals. 
 1. Time domain signals
 Time domain signals were captured with the accelerometer and gyroscope and recorded as 3-axial raw signals. These variables 
