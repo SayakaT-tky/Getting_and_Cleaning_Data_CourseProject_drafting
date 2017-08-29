@@ -12,17 +12,14 @@ The original data set is consists of training and test data. These data sets wer
 
 ## Transformations
 The transformations made with the source data set through the project script(`run_analysis.R`) are as follows: 
-##### * Combining the original data set  
+#### * Combine the original data set  
 Step1: Merges the training and the test sets to create one data set.
-* Variable selection
-
+* Extract specific variables  
 Step2: Extracts only the measurements on the mean and standard deviation for each measurement.
-* Alteration of the variable names
-
+* Alter the variable names  
 Step3: Uses descriptive activity names to name the activities in the data set.
 Step4: Appropriately labels the data set with descriptive variable names.
-* Summarize the data
-
+* Summarize the data  
 Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Step6: Output the result to "tidydata.txt".
 
