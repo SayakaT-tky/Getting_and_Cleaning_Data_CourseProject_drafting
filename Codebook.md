@@ -12,7 +12,7 @@ The original data set is consists of training and test data. These data sets wer
 
 ## Transformations
 The transformations made with the source data set through the project script(`run_analysis.R`) are as follows: 
-* Combining the original data set  
+##### * Combining the original data set  
 Step1: Merges the training and the test sets to create one data set.
 * Variable selection
 
