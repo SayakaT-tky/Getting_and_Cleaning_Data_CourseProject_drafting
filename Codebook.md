@@ -2,8 +2,7 @@
 The data file in this repository, tidydata.txt, is the file which this codebook connects to. It consists of 10299 rows and 81 columns, where the first row contains the variable names.
 
 ## Data
-The data file "tidydata.txt" was created as a tidy data set through the project work cleaning the data source acquired from the URL below:
-<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+The data file "tidydata.txt" was created as a tidy data set through the project work cleaning the data source acquired from here: UCI [Machine learning project data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 The original data source is a set of measurement of 6 activities performed by 30 individuals, which were obtained with smartphones. These data include:
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration
@@ -35,7 +34,7 @@ The acceleration signal from the smartphone accelerometer are recorded in standa
 The angular velocity vector measured by the gyroscope are recorded in radians per second.
 ### Identifiers
 * `Activity`
-The activity type performed by the individual, strings of either 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+The activity type performed by the individual, strings of either 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 * `Subject`
 The ID of each individual subjects, integers ranging from 1 to 30.
 ### Variables
