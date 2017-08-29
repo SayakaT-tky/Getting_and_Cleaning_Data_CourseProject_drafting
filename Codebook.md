@@ -39,10 +39,10 @@ All values for the measured variables are numeric, floating-point number. The va
 Time domain signals were captured with the accelerometers and gyroscopes and recorded as 3-axial raw signals. Variables of time domain signals have prefix 'TimeDomain' in its variable names.  
 * `Acc`: Signals captured with the accelerometers  
 * `Gyro`: Signals captured with the gyroscopes  
-* `Jerk`: the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
-* `Magnitude`: the magnitude of these three-dimensional signals were calculated using the Euclidean norm
 * `Body`: The body acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
 * `Gravity`: The gravity acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
+* `Jerk`: the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+* `Magnitude`: the magnitude of these three-dimensional signals were calculated using the Euclidean norm
 * `Mean`:  
 * `StD`:  
 
