@@ -37,8 +37,9 @@ The ID of each individual subjects, integers ranging from 1 to 30.
 ### Measurement variables
 All values for the measured variables are numeric, floating-point number. The variables are categorized into two types, time domain signals and frequency domain signals. 
 #### 1. Time domain signals  
-Time domain signals were captured with the accelerometers and gyroscopes and recorded as 3-axial raw signals, and then subjected to certain calculations. Variables of time domain signals have prefix 'TimeDomain' in its variable names.  
-* `Acc`: The linear acceleration measurements calculated from signals captured with the accelerometers  
+Time domain signals were captured with the accelerometers and gyroscopes and recorded as 3-axial raw signals, and then subjected to certain calculations. Variables of time domain signals have prefix 'TimeDomain' in its variable names. Each abbreviation in the variables denotes the masurement features as below:
+**Measurement types; `Acc` or `Gyro`**
+* `Acc`: The linear acceleration measurements calculated from signals captured with the accelerometers  
 * `Gyro`: The angular velocity vector measurements calculated from signals captured with the gyroscopes  
 * `Body`: The body acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
 * `Gravity`: The gravity acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
@@ -49,6 +50,6 @@ Time domain signals were captured with the accelerometers and gyroscopes and rec
 * `Std`: The stantdard deviation of each measurement set
 
 #### 2. Frequency domain signals  
-Frequency domain signals were calculated with Fast Fourier Transform (FFT) being applied to some of the time domain signal measurements. These are indicated in its variable name with prefix 'FrequencyDomain'. The abbreviations used in each variables are same as those used for time domain signals.
+Frequency domain signals were calculated with Fast Fourier Transform (FFT) being applied to some of the time domain signal measurements. These are indicated in its variable name with prefix 'FrequencyDomain'. The abbreviations used in each variables for its discription are same as those used for time domain signals.
 
 
