@@ -42,14 +42,18 @@ Time domain signals were captured with the accelerometers and gyroscopes and rec
 **Measurement types; `Acc` or `Gyro`**
 * `Acc`: The linear acceleration measurements calculated from signals captured with the accelerometers  
 * `Gyro`: The angular velocity vector measurements calculated from signals captured with the gyroscopes  
+
 **Body or Gravity acceleration signals; `Body` or `Gravity`**
 * `Body`: The body acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
 * `Gravity`: The gravity acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
+
 **Jerk signal; `Jerk`**
 * `Jerk`: Jerk signals obtained as a time derivative of the body linear acceleration and angular velocity
+
 **Element types; `Magnitude`, `X`, `Y`, or `Z`**
 * `Magnitude`: The magnitude of the three-dimensional signals, which were calculated using the Euclidean norm
 * `X`, `Y` or `Z`: Signals in each orientation
+
 **Descriptive statistics values; `Mean` or `Std`**
 * `Mean`: The average of each measurement set
 * `Std`: The stantdard deviation of each measurement set
