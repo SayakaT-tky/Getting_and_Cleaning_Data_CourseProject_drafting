@@ -25,9 +25,10 @@ Step6: Outputs and saves the result to 'tidydata.txt'.
 
 ## Variables
 All measurements are normalized and bounded within [-1,1].
-### Demensions
-The acceleration signal from the smartphone accelerometer are recorded in standard gravity units 'g'.
+### Units
+The linear acceleration measurements which are derived from the signals captured with smartphone accelerometer are recorded in standard gravity units 'g'.
 The angular velocity vector measured by the gyroscope are recorded in radians per second.
+Jerk signals are time derivatives of the body linear acceleration or angular velocity, and the units are g/second and radians/second^3, respectively.
 ### Identifiers
 * `Activity`
 The activity type performed by the individual, strings of either 6 values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
@@ -36,13 +37,14 @@ The ID of each individual subjects, integers ranging from 1 to 30.
 ### Measurement variables
 All values for the measured variables are numeric, floating-point number. The variables are categorized into two types, time domain signals and frequency domain signals. 
 #### 1. Time domain signals  
-Time domain signals were captured with the accelerometers and gyroscopes and recorded as 3-axial raw signals (represented with 'X','Y', and 'Z' at the end of variable names). Variables of time domain signals have prefix 'TimeDomain' in its variable names.  
-* `Acc`: Signals captured with the accelerometers  
-* `Gyro`: Signals captured with the gyroscopes  
+Time domain signals were captured with the accelerometers and gyroscopes and recorded as 3-axial raw signals, and then subjected to certain calculations. Variables of time domain signals have prefix 'TimeDomain' in its variable names.  
+* `Acc`: The linear acceleration measurements calculated from signals captured with the accelerometers  
+* `Gyro`: The angular velocity vector measurements calculated from signals captured with the gyroscopes  
 * `Body`: The body acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
 * `Gravity`: The gravity acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
 * `Jerk`: Jerk signals obtained as a time derivative of the body linear acceleration and angular velocity
 * `Magnitude`: The magnitude of the three-dimensional signals, which were calculated using the Euclidean norm
+* `X`, `Y` or `Z`: Each dimensional measurements
 * `Mean`: The average of each measurement set
 * `Std`: The stantdard deviation of each measurement set
 
