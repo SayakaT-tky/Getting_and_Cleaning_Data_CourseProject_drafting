@@ -38,7 +38,7 @@ The ID of each individual subjects, integers ranging from 1 to 30.
 All values for the measured variables are numeric, floating-point number. The variables are categorized into two types, time domain signals and frequency domain signals. 
 #### 1. Time domain signals  
 Time domain signals were captured with the accelerometers and gyroscopes and recorded as 3-axial raw signals, and then subjected to certain calculations. Variables of time domain signals have prefix 'TimeDomain' in its variable names. Each abbreviation in the variables denotes the masurement features as below:  
-**Measurement types; `Acc` or `Gyro`**
+#####Measurement types; `Acc` or `Gyro`
 * `Acc`: The linear acceleration measurements calculated from signals captured with the accelerometers  
 * `Gyro`: The angular velocity vector measurements calculated from signals captured with the gyroscopes  
 * `Body`: The body acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
