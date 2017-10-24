@@ -17,7 +17,7 @@ Step1: Merges the training and the test sets to create one data set.
 #### Extract specific variables  
 Step2: Extracts only the measurements on the mean and standard deviation for each measurement.
 #### Alter the value labels and variable names  
-Step3: Uses descriptive activity names to express each activities in the data set.  
+Step3: Applies descriptive activity names to values to express each activities in the data set.  
 Step4: Appropriately labels the data set with descriptive variable names.
 #### Summarize the data  
 Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
@@ -36,18 +36,18 @@ The ID of each individual subjects, integers ranging from 1 to 30.
 ### Measurement variables
 All values for the measured variables are numeric, floating-point number. The variables are categorized into two types, time domain signals and frequency domain signals. 
 #### 1. Time domain signals  
-Time domain signals were captured with the accelerometers and gyroscopes and recorded as 3-axial raw signals. Variables of time domain signals have prefix 'TimeDomain' in its variable names.  
+Time domain signals were captured with the accelerometers and gyroscopes and recorded as 3-axial raw signals (represented with 'X','Y', and 'Z' at the end of variable names). Variables of time domain signals have prefix 'TimeDomain' in its variable names.  
 * `Acc`: Signals captured with the accelerometers  
 * `Gyro`: Signals captured with the gyroscopes  
 * `Body`: The body acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
 * `Gravity`: The gravity acceleration signals separated with a low pass Butterworth filter from the original acceleration signals  
-* `Jerk`: the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
-* `Magnitude`: the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+* `Jerk`: Jerk signals obtained from the body linear acceleration and angular velocity which were derived in time
+* `Magnitude`: The magnitude of the three-dimensional signals, which were calculated using the Euclidean norm
 * `Mean`:  
-* `StD`:  
+* `Std`:  
 
 #### 2. Frequency domain signals  
-Frequency domain signals were calculated with Fast Fourier Transform (FFT) being applied to some of the time domain signal measurements. These are indicated in its variable name with prefix 'FrequencyDomain'.  
+Frequency domain signals were calculated with Fast Fourier Transform (FFT) being applied to some of the time domain signal measurements. These are indicated in its variable name with prefix 'FrequencyDomain'. The rest of the  
 
 =================
 
@@ -57,26 +57,6 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
 
 
 
