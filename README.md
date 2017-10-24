@@ -27,4 +27,4 @@ This project was done with:
 * Windows 7 SP1 64-bit
 * R version 3.3.3
 * Rstudio 1.0.136
-* R packages: dplyr 0.5.0; reshape2 1.4.2
+* R packages: dplyr 0.5.0
