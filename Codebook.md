@@ -1,5 +1,5 @@
 # Code book for Getting and Cleaning Data course project
-The data file in this repository, tidydata.txt, is the file which this codebook connects to. It consists of 10299 rows and 81 columns, where the first row contains the variable names.
+The data file in this repository, tidydata.txt, is the file which this codebook connects to. It consists of 10299 rows and 68 columns, where the first row contains the variable names.
 
 ## Data
 The data file "tidydata.txt" was created as a tidy data set through the project work cleaning the data source acquired from here: [UCI Machine learning project data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
