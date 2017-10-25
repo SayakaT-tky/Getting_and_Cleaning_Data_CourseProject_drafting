@@ -18,7 +18,7 @@ Step1: Merges the training and the test data sets to create one data set.
 Step2: Extracts only the variables on the means and standard deviations for each measurement.
 #### Alter the value labels and variable names  
 Step3: Applies descriptive activity names to values instead of factor numbers to express each activities in the data set.  
-Step4: Appropriately labels the data set with descriptive variable names.
+Step4: Appropriately re-labels the data set with descriptive variable names.
 #### Summarize the data  
 Step5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
 Step6: Outputs and saves the result to 'tidydata.txt'.
@@ -59,4 +59,4 @@ Time domain signals were captured with the accelerometers and gyroscopes and rec
 * `Std`: The stantdard deviation of each measurement set
 
 #### 2. Frequency domain signals  
-Frequency domain signals were calculated with Fast Fourier Transform (FFT) being applied to some of the time domain signal measurements. These are indicated in its variable name with prefix 'FrequencyDomain'. The abbreviations used in each variables for its discription are same as those used for time domain signals.
+Frequency domain signals were calculated with Fast Fourier Transform (FFT) being applied to some of the time domain signal measurements. These are indicated in its variable name with prefix 'FrequencyDomain'. The abbreviations used in each variables are same as those used for time domain signals.
